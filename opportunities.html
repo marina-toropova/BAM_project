@@ -1,53 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/main.css">
     <title>Document</title>
 </head>
+
 <body>
     <header class="page-header">
-
+        <a href="index.html">Ссылка на главную</a>
         <p class="page-header__text">VR</p>
     </header>
-    <main class="main-opportunities">
-        <h1 class="main-opportunities__title"></h1>
-        <section class="advantages">
-            <h2 class="advantages__title">Возможности</h2>
-            <ul class="advatages-list">
-                <li class="advanteges-list__item"></li>
-                <li class="advanteges-list__item"></li>
-                <li class="advanteges-list__item"></li>
-                <li class="advanteges-list__item"></li>
-                <li class="advanteges-list__item"></li>
-            </ul>
-        </section>
-        <aside class="news">
-            <h2 class="aside__title">Новости</h2>
-            <form class="aside_form" action="#" method="get">
-                <input type="email" placeholder="Эл. почта">
-                <button class="button" type="submit">Подписаться</button>
-            </form>
-        </aside>
+    <div class="container">
+        <main class="main-opportunities">
+            <h1 class="main-opportunities__title">Возможности</h1>
+            <section class="advantages">
+                <ul class="advatages-list">
+                    <li class="advanteges-list__item advanteges-list__item--border">
+                        <img class="advantages-item__image" src="assets/images/Illustration_4.svg"
+                            alt="Химик на фоне красной стены.">
+                        <h3 class="advantages-item__title">Без проводов</h3>
+                        <p class="advantages-item__text">Шлем работает без проводов. Не нужен ни компьютер, ни внешнее
+                            питание, ни большое помещение, чтобы расставить трекеры.</p>
+                    </li>
+                    <li class="advanteges-list__item">
+                        <img class="advantages-item__image" src="assets/images/Illustration_2.svg"
+                            alt="Робот на фоне красной стены.">
+                        <h3 class="advantages-item__title">Без компьютера</h3>
+                        <p class="advantages-item__text">Современным VR-шлемам нужен мощный компьютер, чтобы запускать
+                            игры. Наш шлем запускает игры из облака, поэтому просто наслаждайтесь.</p>
+                    </li>
+                    <li class="advanteges-list__item">
+                        <img class="advantages-item__image" src="assets/images/Illustration_9.svg"
+                            alt="Девушка за компьютером на фоне красной стены.">
+                        <h3 class="advantages-item__title">До 10 часов работы</h3>
+                        <p class="advantages-item__text">Несмотря на компактность и производительность, шлем может
+                            работать до 10 часов — даже, если вы играете в самые ресурсоемкие игры.</p>
+                    </li>
+                    <li class="advanteges-list__item advanteges-list__item--border advanteges-list__item--position">
+                        <h3 class="advantages-item__title">Сотни игр</h3>
+                        <p class="advantages-item__text">Уже сейчас вам доступно более сотни игр: от высокобюджетных
+                            ААА-тайтлов до маленьких независимых проектов. Скоро их станет еще больше.</p>
+                    </li>
+                    <li class="advanteges-list__item">
+                        <h3 class="advantages-item__title">Почти даром</h3>
+                        <p class="advantages-item__text">По сравнению с другими VR-шлемами наш стоит гораздо меньше. И
+                            вы существенно экономите на мощном компьютере.</p>
+                    </li>
+                    <li class="advanteges-list__item">
+                        <aside class="news">
+                            <h2 class="aside__title">Новости</h2>
+                            <form class="aside_form" action="#" method="get">
+                                <input class="aside-form__input" type="email" name="email" placeholder="Эл. почта"><br>
+                                <button class="button aside-form__button" type="submit">Подписаться</button>
+                            </form>
+                        </aside>
+                    </li>
+                </ul>
+            </section>
+            
+    </div>
     </main>
+
+    <div class="container">
     <footer class="page-footer">
-        <nav class="page-footer-navigation">
-            <ul class="navigation-list page-footer__navigation-list">
-                <li class="navigation-list__item">
-                    <a href="#" class="navigation-list__link">Возможности</a>
-                </li>
-                <li class="navigation-list__item">
-                    <a href="#" class="navigation-list__link">Где купить</a>
-                </li>
-                <li class="navigation-list__item">
-                    <a href="#" class="navigation-list__link">Доставка</a>
-                </li>
-                <li class="navigation-list__item">
-                    <a href="#" class="navigation-list__link">Помощь</a>
-                </li>
-            </ul>
-        </nav>
+            <nav class="page-footer-navigation">
+                <ul class="navigation-list page-footer__navigation-list">
+                    <li class="navigation-list__item">
+                        <a href="#" class="navigation-list__link">Возможности</a>
+                    </li>
+                    <li class="navigation-list__item">
+                        <a href="#" class="navigation-list__link">Где купить</a>
+                    </li>
+                    <li class="navigation-list__item">
+                        <a href="#" class="navigation-list__link">Доставка</a>
+                    </li>
+                    <li class="navigation-list__item">
+                        <a href="#" class="navigation-list__link">Помощь</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </footer>
+</div>
 </body>
+
 </html>

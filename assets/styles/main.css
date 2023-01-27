@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Intro';
+    src: local('Intro'),
+        url(assets/fonts/Intro/IntroDemo-BlackCAPS.otf);
+}
+
+body {
+    font-family: 'Intro', 'Times New Roman', Times, serif;
+}
+
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: #5222D0;
+    color: #ffffff;
+    padding: 14px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    border-color: #5222D0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.visually-hidden {
+    visibility: hidden;
+}
+
+.page-header__text {
+    text-align: center;
+}
+
+
+/*/ Стили для opportunities /*/
+
+.main-opportunities__title {
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 120%;
+}
+
+
+.advatages-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 420px);
+}
+
+.advanteges-list__item {
+    display: flex;
+    flex-direction: column;
+    padding: 26px 40px 25px 33px;
+}
+
+.advanteges-list__item--border {
+    border: solid 1px #BB2247;
+}
+
+.navigation-list__link {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.advanteges-list__item--position {
+    position: relative;
+    left: -16px;
+}
+
+.advantages-item__title {
+    font-size: 30px;
+    line-height: 120%;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.advantages-item__text {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+.news {
+    max-width: 365px;
+    height: 233px;
+    display: flex;
+    flex-direction: column;
+    background-color: #EC615B;
+    padding: 25px 22px 0 18px;
+}
+
+.aside__title {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+}
+
+.aside-form__input {
+    padding: 9px 0 9px 14px;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+.aside-form__button {
+    margin-top: 23px;
+}
+
+/*/ Стили для футера /*/
+
+.page-footer {
+    height: 198px;
+    display: flex;
+    align-items: center;
+}
+
+.page-footer__navigation-list {
+    list-style: none;
+    display: flex;
+    gap: 34px;
+}
