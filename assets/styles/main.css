@@ -48,9 +48,10 @@ a {
 }
 
 .main-index {
-    background-image: url(assets/images/VR-boy.svg);
+    background-image: url(/assets/images/background.svg);
     background-repeat: no-repeat;
-    background-position: 30%;
+    background-position-x: right;
+    background-position-y: bottom;
 }
 
 .hero {
@@ -61,10 +62,24 @@ a {
 .hero-main-content__title {
     text-transform: uppercase;
     font-family: 'Intro';
-    font-style: bold;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 60px;
     line-height: 120%;
+}
+
+.hero-main-content__text {
+    font-size: 20px;
+    line-height: 160%;
+    max-width: 90%;
+}
+
+.hero-main-content__link {
+    font-family: 'Intro ';
+    font-size: 35px;
+    line-height: 35px;
+    padding: 28px 32px 21px 33px;
+    display: inline-block;
+    margin-top: 30px;
 }
 
 
