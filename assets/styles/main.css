@@ -37,8 +37,42 @@ a {
     text-align: center;
 }
 
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__link-basket {
+    font-family: 'Intro';
+    padding: 14px;
+}
+
+.main-index {
+    background-image: url(assets/images/VR-boy.svg);
+    background-repeat: no-repeat;
+    background-position: 30%;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-main-content__title {
+    text-transform: uppercase;
+    font-family: 'Intro';
+    font-style: bold;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 120%;
+}
+
 
 /*/ Стили для opportunities /*/
+
+.main-opportunities {
+    margin-top: 90px;
+}
 
 .main-opportunities__title {
     text-transform: uppercase;
