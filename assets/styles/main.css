@@ -42,9 +42,16 @@ a {
     justify-content: space-between;
 }
 
+.logo__link {
+    position: relative;
+    left: -47px;
+}
+
 .logo__link-basket {
     font-family: 'Intro';
     padding: 14px;
+    position: relative;
+    right: -76px;
 }
 
 .main-index {
