@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Intro';
     src: local('Intro'),
-        url(assets/fonts/Intro/IntroDemo-BlackCAPS.otf);
+        url(/assets/fonts/Intro/Intro.ttf);
 }
 
 body {
-    font-family: 'Intro', 'Times New Roman', Times, serif;
+    font-family: 'Roboto Condensed', sans-serif, 'Times New Roman', Times, serif;
 }
 
 
@@ -45,6 +45,7 @@ a {
     font-size: 60px;
     line-height: 120%;
     margin-left: 70px;
+    font-family: 'Intro';
 }
 
 
@@ -80,6 +81,7 @@ a {
     font-size: 30px;
     line-height: 120%;
     text-transform: uppercase;
+    font-family: 'Intro';
 }
 
 .advantages-item__text {
